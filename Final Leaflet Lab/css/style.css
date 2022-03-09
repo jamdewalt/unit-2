@@ -1,0 +1,122 @@
+/*Adds a margin so the text is more readable and not right on the edge*/
+body{
+    margin: 2;     
+}
+
+/*The H's controls the font/color/size of the different texts used*/
+h1 {
+    color: black;
+    font-family: 'Trebuchet MS';
+    font-size: 300%;
+    font-weight: bolder;
+  }
+
+h2 {
+  color: black;
+  font-family: 'Trebuchet MS';
+  font-size: 120%;
+}
+h3 {
+    color: black;
+    font-family: 'Trebuchet MS';
+    font-size: 100%;
+  }
+
+h4 {
+    color: black;
+    font-family: 'Trebuchet MS';
+    font-size: 100%;
+  }
+ul {
+    color: black;
+    font-family: sans-serif;
+    font-size: 100%;
+  }
+  
+
+
+/*Controls the style settings of the scroll container on the right side of the page*/
+.scroll-container {
+    width: 30%;
+    height:600px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    display: inline-block; 
+  }
+  
+  .scroll-page {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    margin: 0
+  }
+  
+  .scroll-page-1 {
+      background: #f0de7a;
+  }
+  
+  .scroll-page-2 {
+      background: #9eda86;
+  }
+  
+  .scroll-page-3 {
+      background: #9898a8;
+  }
+
+
+/*Controls the style settings for the map window*/
+#map {    
+    height: 600px;    
+    width: 60%;
+    display: inline-block;
+    }
+
+    .leaflet-popup-content p {
+        margin: .1em 0;
+    }
+/*Controls the style settings of the sequence bar located on bottom left of map*/
+    .sequence-control-container {  
+        width: 350px;  
+        height: 30px;  
+        background-color: rgba(255,255,255,0.8);  
+        padding: 10px;  
+        line-height: 45px;  
+        text-align: left;  
+        border: solid gray 1px;  
+    }
+
+    .range-slider {  
+        width: 250px;  
+    }  
+    
+    .step {  
+        width: 40px;  
+    }  
+    
+    .step img {  
+        width: 100%;
+        height: auto
+
+    }  
+    
+    #forward {
+        float: right;
+    }
+    #reverse {  
+        float: left;  
+    }
+    /*Controls the style settings of the legend at the bottom right of map*/
+    .legend-control-container {
+        width: 150px;
+        font-weight: bold;
+        background-color: rgba(255,255,255,0.8);
+        padding: 10px;
+        text-align: center;
+        border: solid black 1px;
+    }
+    
+    .legend-control-container p{
+         margin: 0;
+    }
+   

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title>Fatalities on the "eight-thousanders" since 2015</title> <!--changes the title that appears in the tabs to my map name-->
+
+        <!--put your external stylesheet links here-->
+        <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <body style="background-color:grey;"></body>
+        <center><h1>Fatalities on the "eight-thousanders" since 2015</h1></center>
+        <center><h2>By: James DeWalt</h2></center>
+        <div id="map"></div>
+        <div class="scroll-container">
+            <h2 class="scroll-page scroll-page-1">Overview:
+                <ul> <!--this creates a bullet point list-->
+                    <li>What is an "eight thousander"? They are the 14 mountains in the world that are more than 8,000 metres. They are located in Asia in the Himalayan and Karakoram mountain ranges.  </li>
+                    &nbsp <!--creates a space between the bullets for easier reading. Nobody wants a wall of words-->
+                    <li>Historically, the difficulty and conditions associated with climbing mountains leads to fatalities.</li>
+                    &nbsp
+                    <li>During the time frame displayed on this map, a total of 111 people died while climbing one of the "eight thousanders". The most deaths for the "eight-thousanders" in this time period were recorded in Mount Everest, with a total of 49 fatalities.  </li>
+                    &nbsp
+                    <li>The most common cause of death on Mount Everest is from avalanches. The event with the most fatalities occured in 2015, in which 15 people died in the Base Camp avalanche following the April 2015 Nepal earthquake.</li>
+                    &nbsp
+                    <li>For more information, please scroll down.
+              </ul> 
+            </h2>
+        
+            <h2 class="scroll-page scroll-page-2">Analysis:
+                <ul>
+                    <li>The only non-"eight-thousander" mountain included on this map, Mount Rainier (4,392m), actually experienced the second most fatalities during this time period with a total of 10 deaths. Mount Rainier is located in the northwestern portion of the United States. </li>
+                    &nbsp
+                    <li>Fatalities are likely correlated to number of visitors. Mount Rainier recieves around 10,000 climbers each year whereas Mount Everest, the most popular of the "eight-thousanders", recieves 700 to 800 climbers each year. </li>
+                    &nbsp
+                    <li>During this time period, climbers of Mount Everest had a 6.5% chance of dying. In comparison, climbers of Mount Rainier had a .1% chance of dying during this time period.</li>
+                    &nbsp
+              </ul> 
+            </h2>
+            <h2 class="scroll-page scroll-page-3">Sources:
+                <ul>
+                    <li>Fatality data for Mt. Rainier: 
+                        <a href="https://www.oregonlive.com/pacific-northwest-news/2014/06/at_least_400_people_have_died.html">Visit OregonLive.com</a> <!--href used to create usable hyperlinks-->
+                    <li>Climber Data for Mount Rainier:
+                        <a href="http://www.alanarnette.com/climbs/rainierfaq.php">Visit alanarnette</a> 
+                    <li>Fatality data for "eight-thousanders" besides Mount Everest:
+                        <a href="https://en.wikipedia.org/wiki/List_of_deaths_on_eight-thousanders#Mount_Everest">Visit Wiki:List of deaths on eight-thousanders</a> 
+                    <li>Fatality data for Mount Everest:
+                        <a href="https://en.wikipedia.org/wiki/List_of_Mount_Everest_death_statistics">Visit Wiki:List of Mount Everest death statistics</a> 
+                    <li>Climber Data for Mount Everest:
+                         <a href="https://trekebc.com/how-many-people-have-climbed-mount-everest/#Quick_Facts_about_Mt_Everest">Visit trekebc</a> 
+
+                    <li>Point data for Mountains was generated using:
+                        <a href="https://geocode.localfocus.nl/">Visit Batch geocoder for journalists</a> 
+                        and
+                        <a href="http://geojson.io/#map=3/5.35/20.04">Visit geojson.io</a>       
+              </ul> 
+            </h2>
+        </div>
+    
+        <center><h2>Comparison of the heights of the Eight-thousanders (red triangles) with the Seven Summits and Seven Second Summits</h2></center>
+        <center><h3>Note: The Seven Summits and Seven Second Summits refer to the first and second-highest mountains of each of the seven continents </h3></center>
+         
+        <!--this creates a link to an image. Looks kind of ugly but everything works fine and it is properly attributed under fair use-->
+        <center><img src=
+        "<p><a href="https://commons.wikimedia.org/wiki/File:Comparison_of_highest_mountains.svg#/media/File:Comparison_of_highest_mountains.svg">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Comparison_of_highest_mountains.svg/1200px-Comparison_of_highest_mountains.svg.png" 
+        alt="Comparison of highest mountains.svg"style="width:80%;height:600px;align="center"></a><br>Image From: &lt;a href="//commons.wikimedia.org/wiki/User:Cmglee" title="User:Cmglee"&gt;Cmglee&lt;/a&gt; - &lt;span class="int-own-work" lang="en"&gt;Own work&lt;/span&gt;, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=18986844">Link</a></p>> </h2>
+        </center>
+
+        <!--put your external script links here-->
+        <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
